@@ -49,3 +49,9 @@ secrets/
 .DS_Store
 Thumbs.db
 desktop.ini
+datamind-elk/node_modules/
+datamind-elk/data/
+datamind-elk/node_modules/
+datamind-elk/data/
+datamind-elk/logs/
+datamind-elk/*.tar.gz
