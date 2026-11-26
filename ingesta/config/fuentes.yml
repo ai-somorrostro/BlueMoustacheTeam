@@ -1,0 +1,10 @@
+# Una entrada por fuente. El nombre debe coincidir con el atributo `nombre`
+# de la clase del scraper (ingesta/scrapers/<fuente>.py).
+incibe_avisos:
+  activa: true
+  frecuencia: "cada hora"
+  url_base: "https://www.incibe.es/incibe-cert/alerta-temprana/avisos"
+  pausa_segundos: 2.5
+  timeout_segundos: 20
+  max_errores_seguidos: 5
+  user_agent: "BlueMustacheTeam-Educativo/1.0 (proyecto formativo, CIFP Somorrostro)"
